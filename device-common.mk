@@ -51,7 +51,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     audiod \
     audio.a2dp.default \
-    audio.primary.msm8952 \
+    audio.primary.msm8953 \
     audio.r_submix.default \
     audio.usb.default \
     libaudio-resampler \
@@ -78,14 +78,16 @@ PRODUCT_PACKAGES += \
 
 # Keystore
 PRODUCT_PACKAGES += \
-    keystore.msm8952 \
+    keystore.msm8953 \
 
 # Display
 PRODUCT_PACKAGES += \
-    copybit.msm8952 \
-    gralloc.msm8952 \
-    hwcomposer.msm8952 \
-    memtrack.msm8952 \
+    gralloc.msm8953 \
+    hwcomposer.msm8953 \
+    memtrack.msm8953 \
+    libdisplayconfig \
+    libqdMetaData \
+    libqdMetaData.system \
     liboverlay \
 
 # For android_filesystem_config.h
@@ -106,7 +108,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    lights.msm8952 \
+    lights.msm8953 \
 
 # OMX
 PRODUCT_PACKAGES += \
@@ -134,7 +136,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    sensors.msm8952 \
+    sensors.msm8953 \
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
@@ -142,7 +144,7 @@ PRODUCT_COPY_FILES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    thermal.msm8952
+    thermal.msm8953
 
 # Wifi
 PRODUCT_PACKAGES += \
@@ -217,7 +219,7 @@ PRODUCT_PACKAGES += \
 
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.msm8952
+    android.hardware.light@2.0-service.msm8953
 
 # Sensors
 PRODUCT_PACKAGES += \

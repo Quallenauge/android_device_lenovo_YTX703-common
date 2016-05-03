@@ -33,8 +33,8 @@ on init
     chmod 0664 /dev/ion
     chown system system /dev/ion
 
-    wait /dev/block/platform/soc.0/${ro.boot.bootdevice}
-    symlink /dev/block/platform/soc.0/${ro.boot.bootdevice} /dev/block/bootdevice
+    wait /dev/block/platform/soc/${ro.boot.bootdevice}
+    symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
 
     # Helps find the keymaster HAL library
     setprop ro.board.platform msm8952
