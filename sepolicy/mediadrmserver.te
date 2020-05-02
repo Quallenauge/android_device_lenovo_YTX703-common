@@ -1,2 +1,0 @@
-# Allow mediadrmserver to open venus firmware
-r_dir_file(mediadrmserver, firmware_file)

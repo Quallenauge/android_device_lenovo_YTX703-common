@@ -1,2 +1,0 @@
-# libwcnss_qmi on YTX703F needs to read /userstore/wifimac
-allow wcnss_service system_data_file:file r_file_perms;
