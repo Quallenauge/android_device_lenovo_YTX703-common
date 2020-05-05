@@ -57,7 +57,7 @@ BOARD_KERNEL_CMDLINE += ramoops.mem_address=0x30000000 ramoops.mem_size=0x300000
 #ifeq ($(WITH_TWRP), true)
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 #endif
-BOARD_KERNEL_CMDLINE += console=ttyHSL0,115200n8 loglevel=8 earlyprintk=msm_hsl_uart,0x78b0000,115200
+#BOARD_KERNEL_CMDLINE += console=ttyHSL0,115200n8 loglevel=8 earlyprintk=msm_hsl_uart,0x78b0000,115200
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x08000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100

@@ -104,7 +104,7 @@ on post-fs
 
     start vendor.qseecomd
     # Wait qseecomd started
-    wait_for_prop sys.listeners.registered true
+    wait_for_prop vendor.sys.listeners.registered true
     write /dev/ipa 1
 
 # msm specific files that need to be created on /data

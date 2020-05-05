@@ -1,11 +1,11 @@
-#  ADSP - from smartron-rimo02a-8.0.0-T5524INDURC-475
-vendor/bin/adsprpcd|7ceb4f275de3816b2a86b889c8902cd7f4e83aa3
-vendor/lib/libadsp_default_listener.so|ae178877cef5f10c9b755bad836d004a75aaa582
-vendor/lib/libadsprpc.so|a461493b33424ff92b2cee4669c704ca0d21eb54|100d7a89d8fa8a7955044298c9f07646273a9865
-vendor/lib/libfastcvadsp_stub.so|766fd7774813b51e82e753b487bb6f1230c10826
-vendor/lib/libfastcvopt.so|746f669d5cab15f719546a5650ad2af803a35a7b
-vendor/lib64/libadsp_default_listener.so|d13ec3501f029660c213208999c13315767b0ec4
-vendor/lib64/libadsprpc.so|ef09248c0a16ed1fc738127d4de0392c01fea58e|f5346bbb0ba487e219b7f848d84a67509f7de2d3
+#  ADSP - from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
+vendor/bin/adsprpcd|a5e878691577485c9f7ee33dfe02384a13f0a265
+vendor/lib/libadsp_default_listener.so|c9a1ee00b32a93a9496ec84393afa0625e929eed
+vendor/lib/libadsprpc.so|e00e8dcb88e9b204fd90bb2c32afcc7fa28dbad1|e93feeade9d227bbb2194e2ba61483cd7dfbfffc
+vendor/lib/libfastcvadsp_stub.so|996345605e1d631151a6b4e9cd9f65b2c7e82dac
+vendor/lib/libfastcvopt.so|2df00c3827fe1db322084cb3935241f17d1532f4
+vendor/lib64/libadsp_default_listener.so|d7436ae6255671b4c3af533b5c89d91d75d5069e
+vendor/lib64/libadsprpc.so|3dd28423f6b786584a1c80b2cdb6e22a1c00b0ae|ce078111307df1fba7894a13ec8faa3351158029
 
 #  DEVICE_ADSP - from YT-X703L_S120015_200317_ROW
 vendor/lib/libvendorconn.so|08eed256fd86626a8f6833d0be97a1a2dd835277
@@ -57,27 +57,23 @@ etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb:vendor/etc/acdbdat
 etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb:vendor/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb
 etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb
 
-# Audio libraries - from smartron-rimo02a-8.0.0-T5524INDURC-475
-vendor/lib/libacdb-fts.so|77e0134b0b44f381129f6a60a0f6ffab092d90a0
-vendor/lib/libacdbloader.so|28f366b054eb4434c44472cf07d39c9c2ff0cec9|06c982a8cfe594480aeb0dba663067365384e3e4
-vendor/lib/libacdbmapper.so|005eba51991267c31d6d7534ac6062b22701a4d6
-vendor/lib/libacdbrtac.so|7a3a2cc18a8656261a186fc96e6866a1fcaa3eb8
-vendor/lib/libadiertac.so|66328fca332f4341102cecf4b8c11824120d3350
-vendor/lib/libadm.so|211f423e9aeb57dc8e15d056741a8e0a762cabbc
-vendor/lib/libaudcal.so|c8dc07b7d3d27001a39b84ef5e89306ba25d5c55
-vendor/lib/libaudioalsa.so|ed50aa37cbbcf2e4e526a717635a7c9b49415e87
-vendor/lib/libhwdaphal.so|2a1daee27e97575af0c612e632cca381e2a632f9
-vendor/lib/soundfx/libqcbassboost.so|ea9d1259b8f3e04307160d0304a99417b3da7d06
-vendor/lib/soundfx/libqcreverb.so|f260dc813eb373d229ee85526549ec0e3c9a18ce
-vendor/lib/soundfx/libqcvirt.so|63bccd6a22e7b22dd715a005999f0c8268fc442d
-vendor/lib64/libacdb-fts.so|c4ebb298258b85ed8369c2c6359aa1ea40faa056
-vendor/lib64/libacdbloader.so|d8a6abca208a97c142b857a29b13419f4257d0b0|40a236a2f79e3c30cfb6636e15483ea12137a086
-vendor/lib64/libacdbmapper.so|2e7ec095d0125cb17ac74eac584468fca496b811
-vendor/lib64/libacdbrtac.so|3cc2adf6727d4aa6f5472fc47b9e42431c1395d5
-vendor/lib64/libadiertac.so|ad6f6bd17b45199bc8b9b369c4aaa76fd0b72c68
-vendor/lib64/libaudcal.so|d297a652af2ade680aab73ee59b7ec7ba04491b8
-vendor/lib64/libaudioalsa.so|a5b8461daa1eab6b8bcc51a9b30696ffab6116f6
-vendor/lib64/libhwdaphal.so|bda9ad017ddff06f6d20ce5c732880701a28ca92
+# Audio libraries - from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
+vendor/lib/libacdb-fts.so|9fb9fe8f1e22e38e41f1517b8f206a50bbb24419
+vendor/lib/libacdbloader.so|f33941720463b3c8215fc644b7d638c6d8ab74c7|c372ce5b0a61241f923716459b5fee0f1a4269e2
+vendor/lib/libacdbrtac.so|f997dfef5413873af88bd8636a501401e9ea9631
+vendor/lib/libadiertac.so|6cfa3c70f01617a944ed2d8512189400ccdec21e
+vendor/lib/libadm.so|b373d5cb6e4c6e081f1d206f6d9538339f330fda
+vendor/lib/libaudcal.so|8c4d9a610c5cce20dee9721feb4864ea2470caf2
+vendor/lib/libaudioalsa.so|1455df26b622c518c04d7f54746683ed96aaa74f
+vendor/lib/soundfx/libqcbassboost.so|bc8ae80ff1ade557ff494631494c2f8261028acb
+vendor/lib/soundfx/libqcreverb.so|1b3cef3c4c9145662fddb03c5e1e7dd3a4f25e1e
+vendor/lib/soundfx/libqcvirt.so|41bf71787ffae3f511d9cb3e32b9e721a0a2e385
+vendor/lib64/libacdb-fts.so|662467af62f9607abfd5acb532dfbf69240bcc70
+vendor/lib64/libacdbloader.so|7c49e7d95090e20f6198f03959323359e4b2ed19|69486eb8d51fd3add200a021ab98364e1ecb3272
+vendor/lib64/libacdbrtac.so|54d114f280eb99f4aa73890c5e9cfbb5b55eb813
+vendor/lib64/libadiertac.so|5b511a0312721e9e6ff27fae9a3f035cf66ac6f7
+vendor/lib64/libaudcal.so|a2788d71d00be193e9704edefc1b363cbc847942
+vendor/lib64/libaudioalsa.so|0a8f0746cc8fd381d001f52c7eb4460951802ac4
 
 # Bluetooth
 bin/btnvtool:vendor/bin/btnvtool
@@ -802,77 +798,84 @@ etc/firmware/widevine.b06:vendor/firmware/widevine.b06
 # Connectivity - from 2.11.0_20191121-1510-bardockpro_bq-user-2395-Fastboot-FW
 vendor/bin/cnss-daemon|58fd958b2f66f3335722d0905b3bb1e70dc1c762
 
-# DRM
-bin/qseecomd:vendor/bin/qseecomd
-vendor/lib/libQSEEComAPI.so
-vendor/lib64/lib-sec-disp.so
-vendor/lib64/libQSEEComAPI.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libStDrvInt.so
-vendor/lib64/libdrmfs.so
-vendor/lib64/libdrmtime.so
-vendor/lib64/librpmb.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libssd.so
-vendor/lib64/libqisl.so
-vendor/lib64/libGPreqcancel.so
-vendor/lib64/libGPreqcancel_svc.so
+#  DRM - from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
+bin/qseecomd:vendor/bin/qseecomd|98e59e53f6bf2e585120f07f93d1265acfa80e7b
+vendor/lib/libQSEEComAPI.so|199f80aa6b940204fe1119aa196a3f939a2d499e
+vendor/lib64/libQSEEComAPI.so|597926ec6d1fca95a76f65f52659920c441d84c2
+vendor/lib64/libSecureUILib.so|b48ed2e7cdb41d08c238a1fd171d9e7f8032516a|4fa3880718513ba63dac49dfbf68b915490f273c
+vendor/lib64/libStDrvInt.so|2947474aad631d5345283e57a38003b6373b2d11
+vendor/lib64/libdrmfs.so|bcae118bb9d2b07a2dae7fdcb30196293217e9ae
+vendor/lib64/libdrmtime.so|a8b04641f437e6235b3d708fe9ba486526f91ab2
+vendor/lib64/librpmb.so|b74dce3afd27fee2caf7604032dad696211dd050|c7e7501791810c6f11b224194a39c678d84fff25
+vendor/lib64/libsecureui.so|dc3ccde15c3bdbc14da9fdc63dbf30973c5fe1b1
+vendor/lib64/libsecureui_svcsock.so|a7fdcd8001d4cdd9a30eb1ccc129324c398cc203
+vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
+vendor/lib64/libqisl.so|491ac949ab488299c7a1ae4fe8257ec0a6f994b1
+vendor/lib64/libGPreqcancel.so|a5f7f9679fdd081c9b9ea8f5c4a3714761ca997c
+vendor/lib64/libGPreqcancel_svc.so|82ee3c978563896569468fdc006455b3f28f35e9
 
 # Gatekeeper
-vendor/lib64/hw/gatekeeper.msm8952.so
+vendor/lib64/hw/gatekeeper.msm8953.so:vendor/lib64/hw/gatekeeper.msm8952.so
 
-# EGL - from smartron-rimo02a-8.0.0-T5524INDURC-475
-vendor/lib/egl/eglSubDriverAndroid.so|7ebcccbadde865ec130378c5c0f866049d420c3a
-vendor/lib/egl/libEGL_adreno.so|f274e2e26b1d5b524783d0934909f077fff76212
-vendor/lib/egl/libGLESv1_CM_adreno.so|e4127763c4fd16db09f79ec56ae9f6b55229645a
-vendor/lib/egl/libGLESv2_adreno.so|d29e8fe7c574ba8b834fe588569895e3de67d9cd
-vendor/lib/egl/libQTapGLES.so|91095005e7caebf2887bfad69fc62d93ca5d23fc
-vendor/lib/egl/libq3dtools_adreno.so|ecf18ca7d54fc998c58f16aa1d3c9ab0fd77f20c
-vendor/lib/egl/libq3dtools_esx.so|a1631532c9a5bdcad34afc37d52f4a12574ccf6b
-vendor/lib/libllvm-glnext.so|d7752af3e28fda51ef7e606e81a52c065b2a8127
-vendor/lib/libllvm-qcom.so|a4d10000e09d6db8a1fbf7b841ba0b2f06a2efed
-vendor/lib/libllvm-qgl.so|6139569d50716c8791502000c44fd55ccc2e0342
-vendor/lib64/egl/eglSubDriverAndroid.so|2125a4d98b104f89af6c44ec9bedecc8bdddb502
-vendor/lib64/egl/libEGL_adreno.so|04daba69de9bcdd1207d1e2502899ec17d3f2901
-vendor/lib64/egl/libGLESv1_CM_adreno.so|b0b5a3d55d354ccdd22e285c6a1e4d0384e38967
-vendor/lib64/egl/libGLESv2_adreno.so|c15ec81e3a37fb42da1c919ebe1daba7c8d00bac
-vendor/lib64/egl/libQTapGLES.so|1c3dc1ad2d25192010f12b80e57c2a53c561b598
-vendor/lib64/egl/libq3dtools_adreno.so|5e7d358ad581b366b496ae8a0c7fa91e4914e8dc
-vendor/lib64/egl/libq3dtools_esx.so|ff6cbbf3b2dfcd47ac0f923b098e3ad71c0981fe
-vendor/lib64/libllvm-glnext.so|0c36b63ec28ad9eac735cbebfd7d8745894cd228
-vendor/lib64/libllvm-qcom.so|808a0cf1567eda293bcda65ea3d9e26fa50ad06d
-vendor/lib64/libllvm-qgl.so|37b68725bfd8c35ae19718aa67bea2d120c732d9
+# EGL - from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
+vendor/lib/egl/eglSubDriverAndroid.so|d0f0f243aeb41720cbc052c2344918c5d588659c
+vendor/lib/egl/libEGL_adreno.so|a3bb3c748cc180521a3b0ea173e714a55c01b118
+vendor/lib/egl/libGLESv1_CM_adreno.so|43c864f0c3f384085f9d19a2e1d56e672f319ea6
+vendor/lib/egl/libGLESv2_adreno.so|15104ce575d5fb6282502fcf73ea27b6f52429bc
+vendor/lib/egl/libQTapGLES.so|957d9c98f3c29e7bf1da02fedac0789ada49dc70
+vendor/lib/egl/libq3dtools_adreno.so|b4b7bda387620de5f6ea2a29406f9351e855b8ed
+vendor/lib/egl/libq3dtools_esx.so|1972c5a7747579d14519681855e6bc4e424fc7f0
+vendor/lib/libllvm-glnext.so|a28adae3ae758cdffc889d681b3cdefe24351c32
+vendor/lib/libllvm-qcom.so|3079ae9049c8758664e6ade78837e0fc6c2272d5
+vendor/lib64/egl/eglSubDriverAndroid.so|8edb19893decd259ba43d752b48e0a69c5788db4
+vendor/lib64/egl/libEGL_adreno.so|c97c8e14d26f53398c50122daf80a599f077398a
+vendor/lib64/egl/libGLESv1_CM_adreno.so|0adf2e094afdc3476198ef8ad52101cf9004eb5d
+vendor/lib64/egl/libGLESv2_adreno.so|4c9e3f723daf6a3f6d4301e3527472654c8bedf1
+vendor/lib64/egl/libQTapGLES.so|104e9cec67678174b92a698849aa2bcf52ba46ce
+vendor/lib64/egl/libq3dtools_adreno.so|8f6043f22c23c76e7e17bc9642957f648bec1e50
+vendor/lib64/egl/libq3dtools_esx.so|4f9b2bb6f492ea05b3da17b68e02effe611de0e8
+vendor/lib64/libllvm-glnext.so|dad8139672a9dcff4270a58599aa1b72d13e62fc
+vendor/lib64/libllvm-qcom.so|88f4199538ce887c91936bf70eef31615c938aa2
 
-# Graphics - from smartron-rimo02a-8.0.0-T5524INDURC-475
-vendor/lib/libC2D2.so|9c8906bb05b889892d7e006cf469ee6a5a42ed06
-vendor/lib/libCB.so|b02c56e4eefe604ef8ec73c5c0f751ea207993aa
-vendor/lib/libOpenCL.so|3344467262fce187244a96397d448bb29559f920
-vendor/lib/libRSDriver_adreno.so|d6270b7e5115510b6cc4201e5bd543498603daee
-vendor/lib/libadreno_utils.so|285dfe3d9045365ea5e16e8eea0d4d0a0e4c61f8
-vendor/lib/libbccQTI.so|786c5e68c2ca9be1823c999c368bff5ad5b981be
-vendor/lib/libc2d30-a5xx.so|fe5ec37fc7dd4ba04b0c9bd78ebbf47039f28e97
-vendor/lib/libc2d30_bltlib.so|d02c7c9ca319bb04daea138bba6536eba3389cb9
-vendor/lib/libgsl.so|41e3edc679eb64a7604e148f63f2bd1c7b01a0c2
-vendor/lib/librs_adreno.so|0f31d0de23bba7f6882742dd27198e8d161f60af|298f8cbb9088b6102ab920039c9bd04901652597
-vendor/lib/librs_adreno_sha1.so|1f463cbc3e45d56ff6b4d55af1b45415b04c5d42
-vendor/lib64/libC2D2.so|1b461850b08357b32bf8ce789427f9f592a06105
-vendor/lib64/libCB.so|a7f9df7e5eb4502b8bdb0bf9e17cfc286e50cdfb
-vendor/lib64/libOpenCL.so|70c61fcfe15450f35bf0f44060291fd9d35343d3
-vendor/lib64/libRSDriver_adreno.so|9020a63e75182deab35fdb14ad6a7b9339512470
-vendor/lib64/libadreno_utils.so|e1b29b02c1411b2b52f5674e66ccd3856dd33c0e
-vendor/lib64/libbccQTI.so|b1895a127ec14a61eafb9b8c5d7c883541f43cab
-vendor/lib64/libc2d30-a5xx.so|f690a681d82490120b5225c2f6e4043cb89a9d9d
-vendor/lib64/libc2d30_bltlib.so|46cfddcfc2461960e9813481ed7aa2514b2a66f5
-vendor/lib64/libgsl.so|5072d87111ded2afe7837fcb2a3045ca4d4b5e60
-vendor/lib64/librs_adreno.so|445f317c7bc18873452f3deca05a7c982ad582b3|7c38da98b9f90410a1a02c04eb83fc570e6b98d9
-vendor/lib64/librs_adreno_sha1.so|3aff4d201264dc5e1166272591909bc1fe9116c1
+# Graphics - from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
+vendor/lib/libC2D2.so|c04a5ac1e576f63ebe91aba14bf917ee9e382be0
+vendor/lib/libCB.so|15986a50f98c979833e5d651eedcffaf19e54e3b
+vendor/lib/libOpenCL.so|9ee3900265f9b855f526c0ce4fcfdaed51d62003
+vendor/lib/libRSDriver_adreno.so|51e8ebcd4584726cbee21a4486b6f37ce5e716f1
+vendor/lib/libadreno_utils.so|3a09e6720121f5b459a1fc7f9639b632da5832ec
+vendor/lib/libbccQTI.so|124156259b7900ac44c48dd9cf83b210d02d8c9d
+vendor/lib/libc2d30_bltlib.so|4a486823ef2a9ea14f4f02c9eb9053ac5fb028af
+vendor/lib/libgsl.so|2ddafd66848dfd146bbaf184b69f92df9f79c99f
+vendor/lib/librs_adreno.so|9f0022a5c38a676a580511749bab3c538ed8b803|d5209f60c0ef5d24fc2eb2a8df91d0e0f377d8d0
+vendor/lib/librs_adreno_sha1.so|28201ce01c442df4389273245be313ff4a741d6e
+vendor/lib64/libC2D2.so|ff2d4947c7924376ff66517461246d238e221e05
+vendor/lib64/libCB.so|df167809abe16674a61742ba6efb208edd069a3b
+vendor/lib64/libOpenCL.so|84c7d8be13885c9346f73c09aaaedc3bce7667d9
+vendor/lib64/libRSDriver_adreno.so|e7628b78d034500c64d09fcaf5305971242e1acd
+vendor/lib64/libadreno_utils.so|04b3878ea84a99f133934580adfd6905f6cc102b
+vendor/lib64/libbccQTI.so|e79ba0450ce215bfb81e518cce310f378314b4e5
+vendor/lib64/libc2d30_bltlib.so|644a88f490cc883492d94b9f581127fb33f51415
+vendor/lib64/libgsl.so|5453da1723c3b014850165b42236ba26af11a7ad
+vendor/lib64/librs_adreno.so|e41149794e719c7f743c4d800def68a5c8e5f9ca|b3083d266f328410268978385f6799baecdc332d
+vendor/lib64/librs_adreno_sha1.so|f9d28682f9c219dfe086da9f3a15aaddbcd38a05
+vendor/lib/libscalar.so|7ac579768ffd2caee903d69d8fd3f7918b04ffbe
+vendor/lib/libsdm-color.so|fa3f8c0062d474fdf6960fcbcc3bf21a5c3fd594
+vendor/lib/libsdm-diag.so|46b5c2d6fab1e655efde1657b2e51dc00c00b763
+-vendor/lib/libsdm-disp-vndapis.so|9bd99e0024f5abcc285f64aadea8725556f16789
+vendor/lib/libsdmextension.so|b6a2100c733b7a5c4688bb9bcae581461ada70f3
+vendor/lib/libtinyxml2_1.so|ef2167416f7a5a503256c5e818fcfa660d5146f4
+vendor/lib64/libscalar.so|b7feb3266d5bccab8b26c49eea6ac8e295192f9a
+vendor/lib64/libsdm-color.so|993dc946c4aa439280527c13798938c51dd9dee7
+vendor/lib64/libsdm-diag.so|87373a043267b9b3bb923931a910119a9deb425f
+-vendor/lib64/libsdm-disp-vndapis.so|b1dede9efa81e8d0374343612ad7ad0d967e8e29
+vendor/lib64/libsdmextension.so|47b7fcfb790df4417654c566af1a8a74d4bf3e2f
+vendor/lib64/libtinyxml2_1.so|56d4d5d0ea010f951de219c7b9fd2c9695a5b9d2
 
-# Graphics - from smartron-rimo02a-8.0.0-T5524INDURC-475
-vendor/lib/hw/vulkan.msm8952.so|45a826c86321a3acb3556fed7988f595354ccb6c
-vendor/lib64/hw/vulkan.msm8952.so|a442c83cc25798de78fa0336358a85c8a7daccc3
+# Graphics - from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
+vendor/lib/hw/vulkan.msm8953.so:vendor/lib/hw/vulkan.msm8952.so|c24dee59782e94c119e1e6ae00ac05c2d67c3f93
+vendor/lib64/hw/vulkan.msm8953.so|8c01e237bdc542ca682cb97ce28f264135033fab
 
-# GFX firmware - from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
+# GFX firmware - from LA.UM.8.6.2.r1-03700-89xx.0
 etc/firmware/a225p5_pm4.fw:vendor/firmware/a225p5_pm4.fw|02e5fb26c121d388104bc6a0f31811dfa91f1828
 etc/firmware/a225_pfp.fw:vendor/firmware/a225_pfp.fw|7ba4003796285d36c125fabe453b45d5e21850cc
 etc/firmware/a225_pm4.fw:vendor/firmware/a225_pm4.fw|87d6f27ca08b521cc3361f63f0631a1fef2403ac
@@ -927,13 +930,13 @@ vendor/lib64/vendor.qti.gnss@1.0_vendor.so|ac0a4c61c7f85e0f935532bf9834aa251b50e
 # Energy - from smartron-rimo02a-8.0.0-T5524INDURC-475
 vendor/bin/energy-awareness|8ec3f96a118c37a2dda0d70122ff075861641ccc
 
-# Keystore
-vendor/lib64/hw/keystore.msm8952.so
+# Keymaster - from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
+vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8952.so|9660e1c13a3589114cf18db58e5b3c3c9e14059b
 
-# Listen
-vendor/lib/hw/sound_trigger.primary.msm8952.so
-vendor/lib/libadpcmdec.so
-vendor/lib/libsmwrapper.so
+#  Listen - from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
+vendor/lib/hw/sound_trigger.primary.msm8953.so:vendor/lib/hw/sound_trigger.primary.msm8952.so|991e0be9c5743d5d3394eb2f4b82740c3c0616f7|ff230d95f459440e90c581bdd9fed619cba77824
+vendor/lib/libadpcmdec.so|be5fdf08a08b635816381e61b6bbf2874c62f613
+vendor/lib/libsmwrapper.so|efed6475b26cafc15fed591a9aaa68b38cf6a37b
 
 # Media - from smartron-rimo02a-8.0.0-T5524INDURC-475
 lib/libOmxVpp.so|61ce32806f51473ac4607af8dc200a6d5f17151b
@@ -1083,7 +1086,7 @@ vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so|2943c3a72992ef81c00a
 # RIL - from smartron-rimo02a-8.0.0-T5524INDURC-475
 bin/rmt_storage:vendor/bin/rmt_storage|7b45ce9faaccd5e61a2d2b9ba45d5ac9a6adb79e
 -framework/QtiTelephonyServicelibrary.jar:vendor/framework/QtiTelephonyServicelibrary.jar|ed781809772d08f05ae8409926bd794eb9717da9|4460d365e430c307a05ca97bed19205579c2aa27
--framework/qcnvitems.jar:vendor/framework/qcnvitems.jar|ed781809772d08f05ae8409926bd794eb9717da9|f918ce5fde01f561a7b4adf458a984bd6521bcde
+-framework/qcnvitems.jar:vendor/framework/qcnvitems.jar|ed781809772d08f05ae8409926bd794eb9717da9|1c418c18d2f169cc1170580c85fc594d9d827fa2
 -framework/tcmclient.jar:vendor/framework/tcmclient.jar|b05ba06f2f0304f80c354ab62dfbc063ec587b5c
 
 # Sensors
