@@ -1,11 +1,12 @@
 # vim: set ft=sh:
 
-service dpmQmiMgr /vendor/bin/dpmQmiMgr
+service dpmQmiMgr /vendor/bin/_dpmQmiMgr
     class main
     disabled
     user system
     group radio system
+    disabled
 
 # YTX703L
-on property:ro.baseband=msm
-    enable dpmQmiMgr
+#on property:ro.baseband=msm
+#    enable dpmQmiMgr

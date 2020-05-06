@@ -1,6 +1,6 @@
 # vim: set ft=sh:
 
-service qti /system/vendor/bin/qti
+service qti /system/vendor/bin/_qti
     class main
     user radio
     group radio net_raw oem_2901 usb net_admin

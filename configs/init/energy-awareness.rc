@@ -1,8 +1,8 @@
 # vim: set ft=sh:
 
 # CPU energy defaults per frequency
-service energy-awareness /vendor/bin/energy-awareness
+service energy-awareness /vendor/bin/_energy-awareness
     class main
     user root
     group system
-    oneshot
+    disabled

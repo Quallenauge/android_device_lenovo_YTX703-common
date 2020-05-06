@@ -1,7 +1,8 @@
 # vim: set ft=sh:
 
-service adsprpcd /vendor/bin/adsprpcd
+service adsprpcd /vendor/bin/_adsprpcd
     class main
     user media
     group media
+    disabled
 

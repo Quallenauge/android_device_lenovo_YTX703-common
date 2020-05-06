@@ -1,8 +1,9 @@
 # vim: set ft=sh:
 
-service rmt_storage /vendor/bin/rmt_storage
+service rmt_storage /vendor/bin/_rmt_storage
     class core
     user root
     group system wakelock
     writepid /dev/cpuset/system-background/tasks
+    disabled
 

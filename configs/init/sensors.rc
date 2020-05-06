@@ -1,9 +1,10 @@
 # vim: set ft=sh:
 
-service sensors /vendor/bin/sensors.qcom
+service sensors /vendor/bin/_sensors.qcom
     class late_start
     user root
     group root
+    disabled
 
 on post-fs-data
     mkdir /persist/sensors 0775 system system
