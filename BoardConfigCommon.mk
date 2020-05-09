@@ -55,6 +55,7 @@ BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci
 BOARD_KERNEL_CMDLINE += ramoops.mem_address=0x30000000 ramoops.mem_size=0x300000 ramoops.ecc=1 ramoops.console_size=0x20000
 #ifeq ($(WITH_TWRP), true)
+#BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive dyndbg='file drivers/video/* +p'
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 #endif
 #BOARD_KERNEL_CMDLINE += console=ttyHSL0,115200n8 loglevel=8 earlyprintk=msm_hsl_uart,0x78b0000,115200
